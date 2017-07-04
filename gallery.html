@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
- <html ng-app="myApp">
+ <html lang="en">
    <head>
 
     <!-- /// Meta tags ///-->
@@ -18,9 +18,8 @@
      <!--Import materialize.css-->
      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-     <link type="text/css" rel="stylesheet" href="css/mediaqueries.css"  media="screen,projection"/>
+     <!--link type="text/css" rel="stylesheet" href="css/mediaqueries.css"  media="screen,projection"/-->
 
-     <!--script src="../angular/css/custom.css"></script-->
 
      <title>Throughthelens.gallery</title>
 
@@ -33,16 +32,23 @@
        <div class="nav-wrapper container"><a href="index.html" class="brand-logo">Throughthelens.gallery</a>
          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
          <ul class="right hide-on-med-and-down valign-wrapper" id="menusymbols">
-           <li><a href="about.php"><img class="left" src="images/navi/viewmenu_symbol.svg"><span style="padding-left:7px">About</span></a></li>
-           <li><a href="gallery.html"><img class="left" src="images/navi/viewmenu_symbol.svg"><span style="padding-left:7px">Gallery</span></a></li>
-           <li><a href="contact.html"><img class="left" src="images/navi/viewmenu_symbol.svg"><span style="padding-left:7px">Contact</span></a></li>
+           <li><a href="about.html"><img class="left" src="images/icons/about.svg"><span style="padding:7px">About</span></a></li>
+           <li><a href="gallery.html"><img class="left" src="images/icons/gallery.svg"><span style="padding-left:7px">Gallery</span></a></li>
+           <li><a href="contact.html"><img class="left" src="images/icons/contact.svg"><span style="padding-left:7px">Contact</span></a></li>
          </ul>
        </div>
      </nav>
 
+    <!-- /// Mobile Navigation Bar /// -->
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="about.html"><img class="left" src="images/icons/about.svg"><span style="padding-left:7px">About</span></a></li>
+      <li><a href="gallery.html"><img class="left" src="images/icons/gallery.svg"><span style="padding-left:7px">Gallery</span></a></li>
+      <li><a href="contact.html"><img class="left" src="images/icons/contact.svg"><span style="padding-left:7px">Contact</span></a></li>
+    </ul>
+
      <!-- /// Add Parallax Effect ///-->
      <div class"parallax-containter">
-        <div class="parallax"><imag src="heroimage.jpg"></div>
+        <div class="parallax"><img src="heroimage.jpg"></div>
      </div>
 
      <div class="section white">
@@ -59,15 +65,31 @@
 
             <div class="card grid-item left-align">
               <div class="card-image">
-                <img src="cambo17team.jpg" alt="team">
-                <span class="card-title">Cambodian Mission Team 2017</span>
+                <img src="images/Img1">
               </div>
             </div>
 
             <div class="card grid-item left-align">
               <div class="card-image">
-                <img src="cambo17team.jpg" alt="team">
-                <span class="card-title">Cambodian Mission Team 2017</span>
+                <img src="images/Img2.jpg">
+              </div>
+            </div>
+
+            <div class="card grid-item left-align">
+              <div class="card-image">
+                <img src="images/Img3.jpg">
+              </div>
+            </div>
+
+            <div class="card grid-item left-align">
+              <div class="card-image">
+                <img src="images/Img4.jpg">
+              </div>
+            </div>
+
+            <div class="card grid-item left-align">
+              <div class="card-image">
+                <img src="images/Img5.jpg">
               </div>
             </div>
 
@@ -84,7 +106,7 @@
         </div>
       </footer>
 
-      <!--Import jQuery before materialize.js-->
+      <!-- /// Import jQuery before materialize.js /// -->
       <script src="js/jquery-3.2.1.min.js"></script>
       <script src="js/materialize.min.js"></script>
       <script src="js/init.js"></script>
