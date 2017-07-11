@@ -1,3 +1,13 @@
+/* /// Parallax /// */
+.parallax-container {
+  height: 800px;
+  background-size: cover;
+}
+
+.parallax-container .section {
+  width: 10%;
+}
+
 /* /// Sticky Footer /// */
 
 body {
