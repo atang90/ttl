@@ -1,115 +1,153 @@
 <!DOCTYPE html>
- <html lang="en">
-   <head>
+<html lang="en">
+<head>
 
-    <!-- /// Meta tags ///-->
-    <meta id='viewport' name="viewport" content="maximum-scale=1.0, initial-scale=1.0" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Throughthelens is a gallery of the photographs I have taken since 2016.">
-    <meta name="keywords" content="Photography, photo, gallery">
+  <!-- /// Meta tags ///-->
+  <meta id='viewport' name="viewport" content="maximum-scale=1.0, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Throughthelens is a gallery of the photographs I have taken since 2016.">
+  <meta name="keywords" content="Photography, photo, gallery">
 
-     <!-- /// Import Materialize ///-->
-     <!--Import Google Icon Font-->
-     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700|Ubuntu:300,400,700" rel="stylesheet">
+  <!-- /// Import Materialize ///-->
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700|Ubuntu:300,400,700" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" rel="stylesheet" >
 
-     <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-     <!--link type="text/css" rel="stylesheet" href="css/mediaqueries.css"  media="screen,projection"/-->
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  <!--link type="text/css" rel="stylesheet" href="css/mediaqueries.css"  media="screen,projection"/-->
 
-     <!-- /// Tab Title & Image /// -->
-     <link rel="icon" href="favicon.ico"/>
-     <title>Throughthelens.gallery</title>
+  <!-- /// Tab Title & Image /// -->
+  <link rel="icon" href="favicon.ico"/>
+  <title>Throughthelens.gallery</title>
 
-   </head>
+</head>
+<body>
 
-   <body>
+  <!-- /// Navigation Bar ///-->
+  <nav class="light-blue darken-2">
+    <div class="nav-wrapper container"><a href="index.html" class="brand-logo">Throughthelens.gallery</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
+      <ul class="right hide-on-med-and-down valign-wrapper" id="menusymbols">
+        <li class="waves-effect waves-default"><a href="gallery.html"><img src="images/icons/gallery.svg"><span style="padding-left:7px">Gallery</span></a></li>
+        <li class="waves-effect waves-default"><a href="contact.html"><img src="images/icons/contact.svg"><span style="padding-left:7px">Contact</span></a></li>
+      </ul>
+    </div>
+  </nav>
 
-     <!-- /// Navigation Bar ///-->
-     <nav class="light-blue darken-2">
-       <div class="nav-wrapper container"><a href="index.html" class="brand-logo">Throughthelens.gallery</a>
-         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
-         <ul class="right hide-on-med-and-down valign-wrapper" id="menusymbols">
-           <li><a href="about.html"><img src="images/icons/about.svg"><span style="padding-left:7px">About</span></a></li>
-           <li><a href="gallery.html"><img src="images/icons/gallery.svg"><span style="padding-left:7px">Gallery</span></a></li>
-           <li><a href="contact.html"><img  src="images/icons/contact.svg"><span style="padding-left:7px">Contact</span></a></li>
-         </ul>
-       </div>
-     </nav>
+  <!-- /// Mobile Navigation Bar /// -->
+  <ul class="side-nav" id="mobile-demo">
+    <li class="waves-effect waves-default"><a href="gallery.html"><img src="images/icons/gallery.svg"><span style="padding-left:7px">Gallery</span></a></li>
+    <li class="waves-effect waves-default"><a href="contact.html"><img src="images/icons/contact.svg"><span style="padding-left:7px">Contact</span></a></li>
+  </ul>
 
-    <!-- /// Mobile Navigation Bar /// -->
-    <ul class="side-nav" id="mobile-demo">
-      <li><a href="about.html"><img src="images/icons/about.svg"><span style="padding-left:7px">About</span></a></li>
-      <li><a href="gallery.html"><img src="images/icons/gallery.svg"><span style="padding-left:7px">Gallery</span></a></li>
-      <li><a href="contact.html"><img src="images/icons/contact.svg"><span style="padding-left:7px">Contact</span></a></li>
-    </ul>
-
-     <!-- /// Add Parallax Effect ///-->
-     <div class"parallax-container">
-        <div class="parallax"><img src="heroimage.jpg"></div>
-     </div>
-
-     <div class="section white">
-       <div class="row container">
-         <h4 class="header"><b>Gallery<b></h4>
-       </div>
-     </div>
-
-  <main>
-
+  <div class="section white">
     <div class="row container">
-      <div class="col s12 m6">
-        <div class="grid center-align col">
+      <h4 class="header"><b>Gallery<b></h4>
+    </div>
+  </div>
 
-            <div class="card grid-item left-align">
-              <div class="card-image">
-                <img src="images/Img1">
-              </div>
-            </div>
+<main>
 
-            <div class="card grid-item left-align">
-              <div class="card-image">
-                <img src="images/Img2.jpg">
-              </div>
-            </div>
+  <!-- /// Gallery /// -->
+  <div class="row container">
+    <div class="col s12 m6">
+      <div class="grid center-align col">
 
-            <div class="card grid-item left-align">
-              <div class="card-image">
-                <img src="images/Img3.jpg">
-              </div>
-            </div>
-
-            <div class="card grid-item left-align">
-              <div class="card-image">
-                <img src="images/Img4.jpg">
-              </div>
-            </div>
-
-            <div class="card grid-item left-align">
-              <div class="card-image">
-                <img src="images/Img5.jpg">
-              </div>
-            </div>
-
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img1.jpg">
+          </div>
         </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img2.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img3.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img4.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img5.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img6.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img7.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img8.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img9.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img10.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img11.jpg">
+          </div>
+        </div>
+
+        <div class="card grid-item left-align">
+          <div class="card-image">
+            <img src="images/Img12.jpg">
+          </div>
+        </div>
+
       </div>
-    <div>
+    </div>
+  </div>
 
-  </main>
+</main>
 
-      <!-- /// Footer /// -->
-      <footer class="page-footer light-blue darken-2">
-        <div class="container">
-          <div class="footer-copyright"> Copyright &copy; 2017 Andrew Tang</div>
-        </div>
-      </footer>
+  <!-- /// Footer /// -->
+  <footer class="page-footer light-blue darken-2">
+    <div class="container">
+      <div class="footer-copyright"> Copyright &copy; 2017 Andrew Tang</div>
+    </div>
+  </footer>
 
-      <!-- /// Import jQuery before materialize.js /// -->
-      <script src="js/jquery-3.2.1.min.js"></script>
-      <script src="js/materialize.min.js"></script>
-      <script src="js/init.js"></script>
+  <!-- /// Import jQuery before materialize.js /// -->
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 
-   </body>
- </html>
+</body>
+</html>
